@@ -76,7 +76,7 @@ File Storage (Cloud/S3)
 ________________________________________
 6. Technology Stack
 Frontend
-•	React / Next.js
+•	React
 •	Tailwind CSS
 •	Mobile-first responsive design
 •	Progressive Web App (PWA)
