@@ -1,3 +1,4 @@
+
 1. Project Overview
 The AI Health Risk Prediction Web App is a production-grade, responsive artificial intelligence platform designed to analyze multimodal health data and generate:
 •	Risk Score (0–100)
@@ -196,4 +197,8 @@ ________________________________________
 14. Contact
 Project Maintainer: Ernest Edem Dzisah
 Email: ernestedem.d@gmail.com
+
+=======
+# lamese
+The AI Health Risk Prediction Web App is a production-grade, responsive artificial intelligence platform designed to detect disease based on user's symptoms
 
