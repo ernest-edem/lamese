@@ -7,7 +7,8 @@ import {
     FiPlus,
     FiCpu,
   } from "react-icons/fi";
-  
+
+  import Sidebar from "../components/Sidebar";  
   import { useNavigate } from "react-router-dom";
   
   export default function Dashboard() {
@@ -43,51 +44,7 @@ import {
         <div className="w-[1100px] max-w-full m-auto flex bg-[#f4f7fb]">
           {/* SIDEBAR */}
   
-          <aside className="hidden lg:flex w-[260px] bg-white border-r border-gray-200 flex-col p-6 rounded-l-3xl">
-            <div className="mb-10">
-              <h1 className="text-3xl font-bold text-blue-700">
-                LAMESE AI
-              </h1>
-  
-              <p className="text-sm text-gray-500 mt-2">
-                Intelligent Health Platform
-              </p>
-            </div>
-  
-            <nav className="flex flex-col gap-4">
-              <button className="flex items-center gap-3 bg-blue-600 text-white px-4 py-3 rounded-xl">
-                <FiActivity size={20} />
-                Dashboard
-              </button>
-  
-              <button
-                onClick={() => navigate("/analysis")}
-                className="flex items-center gap-3 hover:bg-gray-100 px-4 py-3 rounded-xl transition"
-              >
-                <FiHeart size={20} />
-                Health Analysis
-              </button>
-  
-              <button
-                onClick={() => navigate("/history")}
-                className="flex items-center gap-3 hover:bg-gray-100 px-4 py-3 rounded-xl transition"
-              >
-                <FiClock size={20} />
-                History
-              </button>
-            </nav>
-  
-            <div className="mt-auto bg-blue-50 rounded-2xl p-5">
-              <h2 className="font-semibold text-blue-700">
-                AI Medical Assistant
-              </h2>
-  
-              <p className="text-sm text-gray-600 mt-2 leading-6">
-                Upload records, analyze symptoms,
-                and receive AI-powered health insights.
-              </p>
-            </div>
-          </aside>
+          <Sidebar />
   
           {/* MAIN CONTENT */}
   
